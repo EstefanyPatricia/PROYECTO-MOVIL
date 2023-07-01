@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>616455917354-467jl05nnoj3097kkkpm9oet18kpk4dv.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.616455917354-467jl05nnoj3097kkkpm9oet18kpk4dv</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDIhfXvGrpXI26ELHGC3rR-VJhNfu_oG8g</string>
+	<key>GCM_SENDER_ID</key>
+	<string>616455917354</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.fashonStoke.RunnerTests</string>
+	<key>PROJECT_ID</key>
+	<string>loginfashion-b592d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>loginfashion-b592d.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:616455917354:ios:f819f156ad215d758b9853</string>
+</dict>
+</plist>
