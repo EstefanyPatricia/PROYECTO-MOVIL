@@ -14,6 +14,8 @@ class ItemPage extends StatelessWidget {
     Colors.brown,
   ];
 
+  int _count = 0;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -44,7 +46,7 @@ class ItemPage extends StatelessWidget {
                       child: Row(
                         children: [
                           Text(
-                            "Titulo del Producto XD",
+                            "Titulo del Producto ",
                             style: TextStyle(
                               fontSize: 28,
                               color: Color(0XFF4C53A5),
@@ -94,7 +96,7 @@ class ItemPage extends StatelessWidget {
                               ),
                               Container(
                                   margin: EdgeInsets.symmetric(horizontal: 10),
-                                  child: Text("01",
+                                  child: Text("$_count",
                                       style: TextStyle(
                                         fontSize: 16,
                                         fontWeight: FontWeight.bold,
@@ -103,17 +105,18 @@ class ItemPage extends StatelessWidget {
                               Container(
                                 padding: EdgeInsets.all(5),
                                 decoration: BoxDecoration(
-                                    color: Colors.white,
-                                    borderRadius: BorderRadius.circular(20),
-                                    boxShadow: [
-                                      BoxShadow(
-                                          color: Colors.grey.withOpacity(0.5),
-                                          spreadRadius: 3,
-                                          blurRadius: 10,
-                                          offset: Offset(0, 5))
-                                    ]),
+                                  color: Colors.white,
+                                  borderRadius: BorderRadius.circular(20),
+                                  boxShadow: [
+                                    BoxShadow(
+                                        color: Colors.grey.withOpacity(0.5),
+                                        spreadRadius: 3,
+                                        blurRadius: 10,
+                                        offset: Offset(0, 5))
+                                  ],
+                                ),
                                 child: Icon(
-                                  CupertinoIcons.plus,
+                                  CupertinoIcons.add,
                                   size: 18,
                                   color: Colors.black,
                                 ),

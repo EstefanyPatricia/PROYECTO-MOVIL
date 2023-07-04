@@ -1,7 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+
 class ItemBottomNavBar extends StatelessWidget {
+
+
   @override
   Widget build(BuildContext context) {
     return BottomAppBar(
@@ -24,7 +27,7 @@ class ItemBottomNavBar extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Text(
-                "\#120",
+                "\$120",
                 style: TextStyle(
                   fontSize: 25,
                   fontWeight: FontWeight.bold,
